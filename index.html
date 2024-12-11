@@ -7,23 +7,55 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f0f5;
+            /* background-color: #f0f0f5; */
+            /* background: linear-gradient(135deg, #f0f8ff, #e6f7ff); /* Light blue gradient */ 
+            background: linear-gradient(
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3) ), 
+            url('https://picsum.photos/200/300') no-repeat center center;
+            background-size: cover;
             color: #333;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             height: 100vh;
+            padding-top: 50px;
         }
         .container {
-            background-color: #fff;
+                background: linear-gradient(135deg, #f0f8ff, #87ceeb); /*Light blue gradient*/ 
+           /* background: repeating-linear-gradient(
+                    45deg,
+                    #ffffff,
+                    #ffffff 10px,
+                    #e0e0e0 10px,
+                    #e0e0e0 20px); /* Subtle diagonal stripes */
+
+              /* background: linear-gradient(
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3) ), 
+            url('https://picsum.photos/200/300') no-repeat center center;
+            background-size: cover; */
+            /* border-radius: 8px;*/
+            /* padding: 20px;*/ 
+            /* color: white; */         
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+            background-color: #fff;  
+            color: #333; /* Text color for readability */
+            border-radius: 12px; /* Smooth corners */
+            position: absolute;
+            top: 50px; /* Distance from the top */
+            left: 50%;
+            transform: translateX(-50%); /* Center horizontally */
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
             max-width: 400px;
             width: 100%;
-            text-align: center;
+            text-align:center;
             padding-right: 40px
         }
         h2 {
